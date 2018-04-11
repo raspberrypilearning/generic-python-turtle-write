@@ -1,19 +1,19 @@
 يمكنك استخدام السلحفاة لكتابة نص. 
 
-python```
+```
 turtle.write('Hello!')
 ```
 
 عيِّن لون السلحفاة لتنشئ نصًا ملونًا:
 
-python```
+```
 turtle.color('deep pink')
 turtle.write('Hello!')
 ```
 
 يمكنك أيضًا تغيير خط النص ومحاذاته. 
 
-python```
+```
 style = ('Courier', 30, 'italic')
 turtle.write('Hello!', font=style, align='center')
 ```
