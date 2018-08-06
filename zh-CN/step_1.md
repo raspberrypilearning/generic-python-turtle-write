@@ -1,29 +1,29 @@
-你可以使用海龟来编写文本。 
+You can use a turtle to write text.
 
 ```python
 turtle.write('Hello!')
 ```
 
-设置海龟颜色来创建彩色文本：
+Set the turtle's color to create coloured text:
 
 ```python
 turtle.color('deep pink')
 turtle.write('Hello!')
 ```
 
-你还可以更改文本的字体和对齐方式。 
+You can also change the font and alignment of the text.
 
 ```python
 style = ('Courier', 30, 'italic')
 turtle.write('Hello!', font=style, align='center')
 ```
 
-字体是一个包含以下元素的元组：
-+ 字体名称，如“Arial”、“Courier”或“Times New Roman”
-+ 以像素为单位的字体大小
-+ 字体类型，可以是“normal”（普通）、“bold”（粗体）或“italic”（斜体）
+The font is a tuple containing:
 
-要设置控制如何以海龟位置为基准来定位文本的对齐方式，请使用 `align` 参数。`align` 可设置为以下选项之一：“left”（左）、“center”（中）、“right”（右）
++ The font name such as 'Arial', 'Courier', or 'Times New Roman'
++ The font size in pixels
++ The font type, which can be 'normal', 'bold', or 'italic'
 
-示例：
-<iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+
+Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
