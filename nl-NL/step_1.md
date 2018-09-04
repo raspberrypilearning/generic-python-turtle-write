@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Je kunt een turtle (schildpad) gebruiken om tekst te schrijven.
 
 ```python
-turtle.write('Hello!')
+turtle.write('Hallo!')
 ```
 
-Set the turtle's color to create coloured text:
+Stel de kleur van de schildpad in om gekleurde tekst te maken:
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('Hallo!')
 ```
 
-You can also change the font and alignment of the text.
+Je kunt ook het lettertype en de uitlijning van de tekst wijzigen.
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write('Hallo!', font=style, align='center')
 ```
 
-The font is a tuple containing:
+Het lettertype is een tuple met:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ De naam van het lettertype, zoals 'Arial', 'Courier' of 'Times New Roman'
++ De lettergrootte in pixels
++ Het lettertype, dat 'normal' (normaal), 'bold' (vet) of 'italic'(cursief) kan zijn
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+Om de uitlijning in te stellen die bepaalt op basis van de positie van de schildpad waar de tekst wordt geplaatst, gebruik je de parameter `align`. `align` kan op een van deze opties worden ingesteld: 'left' (links), 'center' (gecentreerd), 'right' (rechts)
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Voorbeeld: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
