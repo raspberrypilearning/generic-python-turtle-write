@@ -1,15 +1,15 @@
 ---
-title: Writing text with Python turtle
+title: Tekst schrijven met de Python schildpad
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: Tekst schrijven met de Python schildpad
 original_url:
 theme: cc-prototype
 duration: 1
 listed: false
 ingredient: true
 copyedit: false
-interests: "graphics"
+interests: "grafisch"
 technologies: "python, turtle"
 steps:
   - 
-    title: Writing text
+    title: Tekst schrijven
