@@ -1,7 +1,7 @@
 ---
-title: Writing text with Python turtle
+title: كتابة نص باستخدام Python turtle
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: كتابة نص باستخدام Python turtle
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,4 +12,4 @@ interests: "graphics"
 technologies: "python, turtle"
 steps:
   - 
-    title: Writing text
+    title: كتابة نص
