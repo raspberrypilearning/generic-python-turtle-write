@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+يمكنك استخدام turtle لكتابة النص.
 
 ```python
-turtle.write('Hello!')
+turtle.write('مرحباً!')
 ```
 
-Set the turtle's color to create coloured text:
+اضبط لون turtle لإنشاء نص ملون:
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('مرحباً!')
 ```
 
-You can also change the font and alignment of the text.
+يمكنك أيضًا تغيير نوع الخط ومحاذاة النص.
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write('مرحباً!', font=style, align='center')
 ```
 
-The font is a tuple containing:
+نوع الخط هو مجموعة تحتوي على:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ اسم الخط مثل "Arial" أو "Courier" أو "Times New Roman"
++ حجم الخط بالبكسل
++ نمط الخط ، الذي يمكن أن يكون "طبيعيًا" أو "غامقًا" أو "مائل"
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+لضبط المحاذاة التي تُحدد موضع النص وفقًا لموضع السلحفاة، استخدم المتغير `align`. المتغير `align` يمكن أن يأخذ أحد القيم التالية: "left"، و"center"، و"right"
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+مثال: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
