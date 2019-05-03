@@ -26,4 +26,4 @@ A fonte é uma tupla contendo:
 
 Para definir o alinhamento que controla como o texto é posicionado com base na posição da tartaruga, use o parâmetro `align (alinhar)`. O `align (alinhar)` pode ser definido para uma destas opções: 'left' (à esquerda), 'center' (centralizado), 'right' (à direita).
 
-Exemplo: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Exemplo: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
