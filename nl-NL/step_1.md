@@ -22,8 +22,8 @@ Het lettertype is een tuple met:
 
 + De naam van het lettertype, zoals 'Arial', 'Courier' of 'Times New Roman'
 + De lettergrootte in pixels
-+ Het lettertype, dat 'normal' (normaal), 'bold' (vet) of 'italic'(cursief) kan zijn
++ Het lettertype, dat 'normal' (normaal), 'bold' (vet) of 'italic' (cursief) kan zijn
 
-Om de uitlijning in te stellen die bepaalt op basis van de positie van de schildpad waar de tekst wordt geplaatst, gebruik je de parameter `align`. `align` kan op een van deze opties worden ingesteld: 'left' (links), 'center' (gecentreerd), 'right' (rechts)
+Om de uitlijning in te stellen waar de tekst op basis van de positie van de schildpad wordt geplaatst, gebruik je de parameter `align`. `align` kan op een van deze opties worden ingesteld: 'left' (links), 'center' (gecentreerd), 'right' (rechts)
 
 Voorbeeld: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
