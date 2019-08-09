@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Du kan bruke en skilpadde til å skrive tekst.
 
 ```python
-turtle.write('Hello!')
+turtle.write('Hei!')
 ```
 
-Set the turtle's color to create coloured text:
+Sett skillpaddens farge for å lage farget tekst:
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('Hei!')
 ```
 
-You can also change the font and alignment of the text.
+Du kan også endre skrift og justering av teksten.
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write ('Hei!', font=style, align='center')
 ```
 
-The font is a tuple containing:
+Skriften er en tuppel som inneholder:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ Skriftnavnet som 'Arial', 'Courier' eller 'Times New Roman'
++ Skriftstørrelsen i piksler
++ Skrifttypen, som kan være 'normal', 'bold' (fet) eller 'italics' (kursiv)
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+For å angi justeringen som styrer hvordan teksten er plassert basert på turtleposisjonen, bruk `align` parameteren. `align` kan settes til en av disse alternativene: 'left' (venstre), 'center' (sentrert), 'right' (høyre)
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Eksempel: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
