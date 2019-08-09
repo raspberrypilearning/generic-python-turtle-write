@@ -1,7 +1,7 @@
 ---
-title: Writing text with Python turtle
+title: Skrive tekst med Python skilpadde
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: Skrive tekst med Python skilpadde
 original_url:
 theme: cc-prototype
 duration: 1
@@ -12,4 +12,4 @@ interests: "graphics"
 technologies: "python, turtle"
 steps:
   - 
-    title: Writing text
+    title: Skrive tekst
