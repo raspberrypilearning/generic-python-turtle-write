@@ -1,9 +1,10 @@
-title: كتابة نص باستخدام سلحفاة Python
+---
+title: كتابة نص باستخدام Python turtle
 hero_image: images/banner.png
-description: كتابة نص باستخدام سلحفاة Python
-original_url: 
+description: كتابة نص باستخدام Python turtle
+original_url:
 theme: cc-prototype
-duration: 1 # 1, 2 or 3
+duration: 1
 listed: false
 ingredient: true
 copyedit: false
