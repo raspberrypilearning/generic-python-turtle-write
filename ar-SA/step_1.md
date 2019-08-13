@@ -1,29 +1,31 @@
-يمكنك استخدام السلحفاة لكتابة نص. 
+يمكنك استخدام turtle لكتابة النص.
 
-```
-turtle.write('Hello!')
+```python
+turtle.write('مرحباً!')
 ```
 
-عيِّن لون السلحفاة لتنشئ نصًا ملونًا:
+اضبط لون turtle لإنشاء نص ملون:
 
-```
+```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('مرحباً!')
 ```
 
-يمكنك أيضًا تغيير خط النص ومحاذاته. 
+يمكنك أيضًا تغيير نوع الخط ومحاذاة النص.
 
-```
+```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write('مرحباً!', font=style, align='center')
 ```
 
-يكون الخط عبارة عن مجموعة بيانات مترابطة تحتوي على:
-+ اسم الخط، مثل 'Arial' أو 'Courier' أو 'Times New Roman'
-+ حجم الخط بوحدة البكسل
-+ نوع الخط، ويمكن أن يكون 'normal' أو 'bold' أو 'italic'
+نوع الخط هو مجموعة تحتوي على:
 
-لتعيين المحاذاة التي تحدد موضع النص وفقًا لموضع السلحفاة، استخدم المَعلمة `align`. ويمكن تعيين المَعلمة `align` إلى أحد الخيارات التالية: 'left', 'center', 'right'
++ اسم الخط مثل "Arial" أو "Courier" أو "Times New Roman"
++ حجم الخط بالبكسل
++ نمط الخط ، الذي يمكن أن يكون "طبيعيًا" أو "غامقًا" أو "مائل"
 
-مثال:
-<iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+لضبط المحاذاة التي تُحدد موضع النص وفقًا لموضع السلحفاة، استخدم المتغير `align`. المتغير `align` يمكن أن يأخذ أحد القيم التالية: "left"، و"center"، و"right"
+
+مثال: 
+
+<iframe src="https://trinket.io/embed/python/f2ebb6f4db?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
