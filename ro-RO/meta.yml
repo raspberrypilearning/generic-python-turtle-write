@@ -1,15 +1,15 @@
 ---
-title: Writing text with Python turtle
+title: Scrierea de text cu broasca țestoasă Python
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: Scrierea de text cu broască țestoasă Python
 original_url:
 theme: cc-prototype
 duration: 1
 listed: false
 ingredient: true
 copyedit: false
-interests: "grafică"
+interests: "graphics"
 technologies: "python, turtle"
 steps:
   - 
-    title: Writing text
+    title: Scrierea de text
