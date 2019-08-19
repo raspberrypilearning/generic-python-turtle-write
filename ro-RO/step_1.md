@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Poți folosi o broască țestoasă pentru a scrie text.
 
 ```python
-turtle.write('Hello!')
+turtle.write('Salut!')
 ```
 
-Set the turtle's color to create coloured text:
+Setează culoarea țestoasei pentru a crea text colorat:
 
 ```python
-turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.color("deep pink")
+turtle.write("Salut!")
 ```
 
-You can also change the font and alignment of the text.
+De asemenea, poți schimba fontul și alinierea textului.
 
 ```python
-style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+stil = ('Courier', 30, 'italic')
+turtle.write ('Salut!', font=stil, align='center')
 ```
 
 Fontul este un tuplu care conține:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ Numele fontului, cum ar fi „Arial”, „Courier” sau „Times New Roman”
++ Dimensiunea fontului în pixeli
++ Tipul de font, care poate fi „normal”, „bold” sau „italic”
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+Pentru a seta alinierea care controlează modul în care textul este poziționat pe baza poziției țestoasei, folosește parametrul `align`. `align` poate fi setat ca una din următoarele opțiuni: „left”, „center”, „right”
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Exemplu: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
