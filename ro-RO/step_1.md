@@ -18,7 +18,7 @@ style = ('Courier', 30, 'italic')
 turtle.write('Hello!', font=style, align='center')
 ```
 
-The font is a tuple containing:
+Fontul este un tuplu care conține:
 
 + The font name such as 'Arial', 'Courier', or 'Times New Roman'
 + The font size in pixels
