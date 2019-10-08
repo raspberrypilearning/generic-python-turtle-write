@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Puedes usar una tortuga para escribir texto.
 
 ```python
-turtle.write('Hello!')
+turtle.write('¡Hola!')
 ```
 
-Set the turtle's color to create coloured text:
+Establece el color de la tortuga para crear texto en color:
 
 ```python
-turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.color('deep pink') # rosa intenso
+turtle.write('¡Hola!')
 ```
 
-You can also change the font and alignment of the text.
+También puedes cambiar la fuente y la alineación del texto.
 
 ```python
-style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+estilo = ('Courier', 30, 'italic') # fuente, tamaño, cursiva
+turtle.write('¡Hola!', font = estilo, align = 'center') # centrado
 ```
 
-The font is a tuple containing:
+La fuente es una tupla que contiene:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ El nombre de la fuente, como 'Arial', 'Courier' o 'Times New Roman'
++ El tamaño de la fuente en píxeles
++ El tipo de fuente, que puede ser 'normal', 'bold' o 'italic' (normal, negrita o cursiva)
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+Para establecer la alineación que controla cómo se posiciona el texto en función de la posición de la tortuga, usa el parámetro `align` (alineación). `align` se puede establecer en una de estas opciones: 'left', 'center', 'right' (izquierda, centro, derecha)
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Ejemplo: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
