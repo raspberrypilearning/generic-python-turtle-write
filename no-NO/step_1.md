@@ -27,4 +27,4 @@ Skriften er en tuppel som inneholder:
 For å angi justeringen som styrer hvordan teksten er plassert basert på turtleposisjonen, bruk `align` parameteren. `align` kan settes til en av disse alternativene: 'left' (venstre), 'center' (sentrert), 'right' (høyre)
 
 Eksempel: 
-<iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/0eb6ce97f0?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
