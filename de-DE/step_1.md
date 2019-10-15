@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Du kannst eine Schildkröte verwenden, um Text zu schreiben.
 
 ```python
-turtle.write('Hello!')
+turtle.write ('Hallo!')
 ```
 
-Set the turtle's color to create coloured text:
+Lege die Farbe der Schildkröte fest, um farbigen Text zu erstellen:
 
 ```python
-turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.color ('deep pink')
+turtle.write ('Hallo!')
 ```
 
-You can also change the font and alignment of the text.
+Du kannst auch die Schriftart und Ausrichtung des Textes ändern.
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write ('Hallo!', font = style, align = 'center')
 ```
 
-The font is a tuple containing:
+Die Schriftart ist ein Tupel mit:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ Dem Schriftnamen wie 'Arial', 'Courier' oder 'Times New Roman'
++ Der Schriftgröße in Pixel
++ Der Schriftart, die normal ('normal'), fett ('bold') oder kursiv ('italic') sein kann
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+Um die Ausrichtung festzulegen, die die Position des Textes in Bezug zur Position der Schildkröte steuert, verwendest du den Parameter `align`. `align` kann auf eine der folgenden Optionen eingestellt werden: "left" (links), "center" (Mitte), "right" (rechts)
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Beispiel: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
