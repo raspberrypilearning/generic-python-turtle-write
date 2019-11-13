@@ -26,4 +26,5 @@ turtle.write('안녕!', font=style, align='center')
 
 거북의 위치에 따라 텍스트의 위치를 ​​제어하는 ​​정렬을 설정하려면 `align` 매개 변수를 사용합니다. `align` 은 'left', 'center', 'right'중 하나의 옵션으로 설정할 수 있습니다.
 
-예시: <iframe src="https://trinket.io/embed/python/7f968d2b90?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+예시: 
+<iframe src="https://trinket.io/embed/python/7f968d2b90?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
