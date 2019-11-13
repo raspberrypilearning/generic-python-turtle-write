@@ -1,0 +1,14 @@
+---
+title: 파이썬 터틀로 텍스트 쓰기
+hero_image: images/banner.png
+description: 파이썬 터틀로 텍스트 쓰기
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - title: 글쓰기
