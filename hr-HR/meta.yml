@@ -1,0 +1,14 @@
+---
+title: Pisanje teksta koristeći turtle modul u Pythonu
+hero_image: images/banner.png
+description: Pisanje teksta koristeći turtle modul u Pythonu
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - title: Pisanje teksta
