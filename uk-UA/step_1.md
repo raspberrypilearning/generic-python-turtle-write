@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Ти можеш використовувати turtle для виводу тексту.
 
 ```python
-turtle.write('Hello!')
+turtle.write('Привіт!')
 ```
 
-Set the turtle's color to create coloured text:
+Встановіть колір черепахи, щоб створити кольоровий текст:
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('Привіт!')
 ```
 
-You can also change the font and alignment of the text.
+Ти також можеш змінити шрифт і вирівнювання тексту.
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write('Привіт!', font=style, align='center')
 ```
 
-The font is a tuple containing:
+Шрифт являє собою кортеж, що містить:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ Назва шрифту, наприклад "Arial", "Courier" або "Times New Roman"
++ Розмір шрифту в пікселях
++ Тип шрифту, який може бути "normal" (звичайний), "bold" (жирний) або "italic" (курсив)
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` може приймати наступні значення: "left" (ліво), "center" (центр), "right" (право)
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Приклад: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
