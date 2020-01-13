@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Podes usar uma tartaruga para escrever texto.
 
 ```python
-turtle.write('Hello!')
+turtle.write('Olá!')
 ```
 
-Set the turtle's color to create coloured text:
+Define a cor da tartaruga para criar texto colorido:
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('Olá!')
 ```
 
-You can also change the font and alignment of the text.
+Também podes alterar a fonte e o alinhamento do texto.
 
 ```python
-style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+estilo = ('Courier', 30, 'italic')
+turtle.write('Olá!', font=estilo, align= 'center')
 ```
 
-The font is a tuple containing:
+A fonte é uma lista ordenada que contém:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ O nome da fonte, como 'Arial', 'Courier' ou 'Times New Roman'
++ O tamanho da fonte em pixeis
++ O tipo de fonte, que pode ser 'normal', 'bold', ou 'italic'
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+Para definir o alinhamento que controla a forma como o texto é posicionado com base na posição da tartaruga, utiliza o parâmetro `align`. `align` pode ser configurado para uma destas opções: 'left', 'center', 'right'
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Exemplo: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
