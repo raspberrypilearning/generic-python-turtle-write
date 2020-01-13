@@ -1,15 +1,15 @@
 ---
-title: Writing text with Python turtle
+title: Γράφοντας κείμενο με τη χελώνα Python
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: Γράφοντας κείμενο με τη χελώνα Python
 original_url:
 theme: cc-prototype
-duration: 1
+duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: false
-interests: "graphics"
-technologies: "python, turtle"
+interests: "γραφικά"
+technologies: "python, χελώνα"
 steps:
   - 
-    title: Writing text
+    title: Σύνταξη κειμένου
