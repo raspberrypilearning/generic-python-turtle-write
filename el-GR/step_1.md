@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Μπορείτε να χρησιμοποιήσετε μια χελώνα για να γράψετε κείμενο.
 
 ```python
-turtle.write('Hello!')
+turtle.write ('Γεια σας!')
 ```
 
-Set the turtle's color to create coloured text:
+Ρυθμίστε το χρώμα της χελώνας για να δημιουργήσετε έγχρωμο κείμενο:
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write ('Γεια σας!')
 ```
 
-You can also change the font and alignment of the text.
+Μπορείτε επίσης να αλλάξετε τη γραμματοσειρά και την ευθυγράμμιση του κειμένου.
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write('Γεια σας!', font=style, align='center')
 ```
 
-The font is a tuple containing:
+Η γραμματοσειρά είναι μια πλειάδα που περιέχει:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ Το όνομα της γραμματοσειράς, όπως 'Arial', 'Courier' ή 'Times New Roman'
++ Το μέγεθος γραμματοσειράς σε εικονοστοιχεία
++ Ο τύπος γραμματοσειράς, ο οποίος μπορεί να είναι "κανονικός", "έντονος" ή "πλάγιος"
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+Για να ορίσετε την ευθυγράμμιση που καθορίζει τον τρόπο με τον οποίο το κείμενο τοποθετείται με βάση τη θέση της χελώνας, χρησιμοποιήστε την παράμετρο `align`. Η `align` μπορεί να οριστεί σε μία από αυτές τις επιλογές: 'left', 'center', 'right'
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Για παράδειγμα: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
