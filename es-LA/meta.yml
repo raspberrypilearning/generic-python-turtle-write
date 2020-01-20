@@ -1,10 +1,10 @@
 ---
-title: Writing text with Python turtle
+title: Escribir texto con la tortuga de Python
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: Escribir texto con la tortuga de Python
 original_url:
 theme: cc-prototype
-duration: 1
+duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: false
@@ -12,4 +12,4 @@ interests: "graphics"
 technologies: "python, turtle"
 steps:
   - 
-    title: Writing text
+    title: Escribir texto
