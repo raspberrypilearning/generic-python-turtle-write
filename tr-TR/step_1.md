@@ -26,4 +26,6 @@ Bu yazı tipi aşağıdakileri içeren bir demet(Demetler birden fazla veri tür
 
 Turtle modülünün konumuna göre metnin nasıl konumlandırıldığını kontrol eden hizalamayı ayarlamak için `align` değişkenini kullanın. `align` değişkeni şu seçeneklerden birine ayarlanabilir: 'left' (sol), 'center' (merkez), 'right' (sağ)
 
-Örneğin: <iframe src="https://trinket.io/embed/python/a3d0b54351?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Örneğin: 
+
+<iframe src="https://trinket.io/embed/python/a3d0b54351?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
