@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+आप पाठ लिखने के लिए तुर्त्ल का उपयोग कर सकते हैं।
 
 ```python
-turtle.write('Hello!')
+तुर्त्ल. लिखो ( 'हैलो!')
 ```
 
-Set the turtle's color to create coloured text:
+रंगीन पाठ बनाने के लिए कछुए का रंग निर्धारित करें:
 
 ```python
-turtle.color('deep pink')
-turtle.write('Hello!')
+तुर्त्ल. रंग('deep pink')
+तुर्त्ल. लिखो ( 'हैलो!')
 ```
 
-You can also change the font and alignment of the text.
+आप पाठ का फ़ॉन्ट और संरेखण भी बदल सकते हैं।
 
 ```python
 style = ('Courier', 30, 'italic')
 turtle.write('Hello!', font=style, align='center')
 ```
 
-The font is a tuple containing:
+फ़ॉन्ट एक टपल युक्त है:
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ फ़ॉन्ट का नाम जैसे 'एरियल', 'कूरियर', या 'टाइम्स न्यू रोमन'
++ पिक्सेल में फ़ॉन्ट आकार
++ फ़ॉन्ट प्रकार, जो 'सामान्य', 'बोल्ड' या 'इटैलिक' हो सकता है
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+संरेखण सेट करने के लिए जो नियंत्रित करता है कि तुर्त्ल की स्थिति के आधार पर पाठ कैसे स्थित है, `align` पैरामीटर का उपयोग करें।। `align` संरेखित इनमें से किसी एक विकल्प पर सेट किया जा सकता है: 'लेफ्ट', 'सेंटर', 'राइट'
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+उदाहरण: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
