@@ -1,15 +1,15 @@
 ---
-title: Writing text with Python turtle
+title: पाइथन के साथ टेक्स्ट लिखना
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: पाइथन के साथ टेक्स्ट लिखना
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
 listed: false
 ingredient: true
 copyedit: false
-interests: "graphics"
-technologies: "python, turtle"
+interests: "“graphics\""
+technologies: "“python, turtle\""
 steps:
   - 
-    title: Writing text
+    title: टेक्स्ट लिखना
