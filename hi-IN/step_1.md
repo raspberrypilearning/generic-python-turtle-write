@@ -27,4 +27,4 @@ turtle.write('हैलो!', font=style, align='center')
 संरेखण सेट करने के लिए जो नियंत्रित करता है कि तुर्त्ल की स्थिति के आधार पर पाठ कैसे स्थित है, `align` पैरामीटर का उपयोग करें।। `align` संरेखित इनमें से किसी एक विकल्प पर सेट किया जा सकता है: 'लेफ्ट', 'सेंटर', 'राइट'
 
 उदाहरण: 
-<iframe src="https://trinket.io/embed/python/b2d97c615d?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+<iframe src="https://trinket.io/embed/python/8f30b4454a?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
