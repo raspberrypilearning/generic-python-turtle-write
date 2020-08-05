@@ -1,0 +1,14 @@
+---
+title: 用Python烏龜寫文字
+hero_image: images/banner.png
+description: 用Python烏龜寫文字
+original_url:
+theme: cc-prototype
+duration: 1 #1, 2 or 3
+listed: false
+ingredient: true
+copyedit: false
+interests: "graphics"
+technologies: "python, turtle"
+steps:
+  - title: 寫文字
