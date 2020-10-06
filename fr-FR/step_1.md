@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+Tu peux utiliser une tortue pour écrire du texte.
 
 ```python
-turtle.write('Hello!')
+turtle.write('Bonjour !')
 ```
 
-Set the turtle's color to create coloured text:
+Définis la couleur de la tortue pour créer un texte coloré :
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('Bonjour !')
 ```
 
-You can also change the font and alignment of the text.
+Tu peux également modifier la police et l'alignement du texte.
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write('Bonjour !', font=style, align='center')
 ```
 
-The font is a tuple containing:
+La police est un tuple contenant :
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ Le nom de la police tel que « Arial », « Courier » ou « Times New Roman »
++ La taille de la police en pixels
++ Le type de police, qui peut être « normal », « gras » ou « italique »
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+Pour définir l'alignement qui contrôle le positionnement du texte en fonction de la position de la tortue, utilise le paramètre `align`. `align` peut être défini sur l'une de ces options : 'left', 'center', 'right'
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+Exemple : <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
