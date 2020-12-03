@@ -1,29 +1,29 @@
-You can use a turtle to write text.
+turtle(タートル)を使ってテキストを書くことができます。
 
 ```python
-turtle.write('Hello!')
+turtle.write('こんにちは！')
 ```
 
-Set the turtle's color to create coloured text:
+タートル(かめ)の色を設定して、色付きのテキストを作成します。
 
 ```python
 turtle.color('deep pink')
-turtle.write('Hello!')
+turtle.write('こんにちは！')
 ```
 
-You can also change the font and alignment of the text.
+テキストのフォントと配置を変更することもできます。
 
 ```python
 style = ('Courier', 30, 'italic')
-turtle.write('Hello!', font=style, align='center')
+turtle.write('こんにちは！', font=style, align='center')
 ```
 
-The font is a tuple containing:
+フォントは以下を含むタプルです。
 
-+ The font name such as 'Arial', 'Courier', or 'Times New Roman'
-+ The font size in pixels
-+ The font type, which can be 'normal', 'bold', or 'italic'
++ 'Arial'、 'C​​ourier'、 'Times New Roman'などのフォント名
++ ピクセル単位のフォントサイズ
++ 'normal'(通常)、 'bold'(太字)、または 'italic'(斜体)のフォントタイプ
 
-To set the alignment which controls how the text is positioned based on the position of the turtle, use the `align` parameter. `align` can be set to one of these options: 'left', 'center', 'right'
+タートルの位置を基に、テキストをどう配置するかを決めるには、 `align` パラメータを使います。 `align` は、 'left'(左)、 'center'(中央)、 'right'(右)のいずれかを設定できます。
 
-Example: <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
+例： <iframe src="https://trinket.io/embed/python/52378ec006?start=result" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen mark="crwd-mark"></iframe>
