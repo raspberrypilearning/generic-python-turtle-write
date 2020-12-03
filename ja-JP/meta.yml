@@ -1,7 +1,7 @@
 ---
-title: Writing text with Python turtle
+title: Pythonのturtleでテキストを書く
 hero_image: images/banner.png
-description: Writing text with Python turtle
+description: Pythonのタートル(かめ)でテキストを書く
 original_url:
 theme: cc-prototype
 duration: 1 #1, 2 or 3
@@ -12,4 +12,4 @@ interests: "graphics"
 technologies: "python, turtle"
 steps:
   - 
-    title: Writing text
+    title: テキストを書く
